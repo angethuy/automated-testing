@@ -6,6 +6,7 @@ require_relative 'card'
 class Deck
 
   def initialize
+    values = [*2..13]
 
   end
 

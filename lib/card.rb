@@ -11,15 +11,15 @@ class Card
 
   def to_s
     case value
-    when *[2..9]
+    when *[2..10]
       face_value = value
-    when 10
-      face_value = "Jack"
     when 11
+      face_value = "Jack"
+    when 12
       face_value = "Queen"
-    when 12 
-      face_value = "King"
     when 13
+      face_value = "King"
+    when 1
       face_value = "Ace"
     end
     return "#{face_value} of #{suit.to_s}"

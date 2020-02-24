@@ -37,9 +37,9 @@ describe Card do
       # The current implementation of to_s does not address this feature
       # Write the test, see it fail, then modify to_s to make it pass!
       # (Consider writing a helper method!)
-      expect (Card.new(10, :hearts).to_s).must_equal "Jack of hearts"
-      expect (Card.new(12, :diamonds).to_s).must_equal "King of diamonds"
-      expect (Card.new(13, :clubs).to_s).must_equal "Ace of clubs"
+      expect (Card.new(11, :hearts).to_s).must_equal "Jack of hearts"
+      expect (Card.new(13, :diamonds).to_s).must_equal "King of diamonds"
+      expect (Card.new(1, :clubs).to_s).must_equal "Ace of clubs"
       
     end
   end
